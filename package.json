@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-plugin-vue": "^9.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nuxt": "3.0.0-rc.3"
+  }
+}
