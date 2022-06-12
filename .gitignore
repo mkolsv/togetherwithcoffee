@@ -9,9 +9,6 @@
 /.idea
 /.nuxt
 
-# Ignore gitlab configs
-/.gitlab
-
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
@@ -22,24 +19,7 @@
 /tmp
 
 /node_modules
-/coverage
-
-*.pdf
-/certs
-/public/dist/
-/public/assets/*
-/public/shop_fonts
-/public/page-published-scripts.min.js
-/public/lazysizes.min.js
-
-/app/views/template_previews
-
-.env
 bundle_config
 
 yarn-debug.log*
 .yarn-integrity
-
-.docker-sync
-
-docker-compose-slow-mac.yml
