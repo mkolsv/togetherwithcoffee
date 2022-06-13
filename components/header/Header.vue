@@ -1,6 +1,6 @@
 <template>
     <header class="twc-header twc-container">
-        <img src="../../../assets/images/shared/logo.svg" alt="Together with coffee">
+        <img src="../../assets/images/shared/logo.svg" alt="Together with coffee">
 
         <Navigation />
 
@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-import Button from '../../shared/base/Button';
+import Button from '../shared/base/Button';
 import Navigation from './Navigation';
 </script>
 
