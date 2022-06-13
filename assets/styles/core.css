@@ -1,6 +1,15 @@
 @import '/node_modules/modern-normalize/modern-normalize.css';
 
 @import "variables.css";
+@import "fonts.css";
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  padding-left: 0;
+}
 
 .twc-container {
   max-width: 1320px;
