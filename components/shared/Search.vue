@@ -1,6 +1,6 @@
 <template>
     <form class="twc-search__form">
-        <button class="twc-button twc-search__submit-button"></button>
+        <button class="twc-button twc-search__submit-button" type="submit" />
         <input class="twc-search" type="text" :placeholder="props.placeholder">
     </form>
 </template>

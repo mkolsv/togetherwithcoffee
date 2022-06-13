@@ -24,9 +24,6 @@ const buttonClasses = computed(() => `twc-button--${props.type}`);
 
 <style scoped>
 .twc-button {
-    background: none;
-    border: none;
-    cursor: pointer;
     padding: 10px;
     border-radius: 4px;
     transition: .2s background-color ease-in, .2s color ease-in;
