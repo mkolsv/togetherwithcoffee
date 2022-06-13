@@ -1,7 +1,7 @@
 <template>
     <nav class="twc-nav">
         <ul class="twc-nav--list">
-            <li class="twc-nav--item" v-for="n in 3">
+            <li class="twc-nav--item" v-for="n in 4">
                 <a class="twc-nav--item-link" href="#">Home</a>
             </li>
         </ul>
@@ -25,7 +25,7 @@ export default {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    min-width: 400px;
+    min-width: 450px;
 }
 
 .twc-nav--item {
@@ -33,9 +33,10 @@ export default {
 }
 
 .twc-nav--item-link {
-    text-decoration: none;
     color: var(--P100);
+    letter-spacing: 2px;
+    text-decoration: none;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
 }
 </style>
