@@ -1,15 +1,15 @@
 <template>
-    <div>
-        <index />
-    </div>
+    <Header />
+    <index />
 </template>
 
 <script>
 import index from './pages';
+import Header from './components/home/header/Header';
 
 export default {
     name: 'app',
 
-    components: { index }
+    components: {Header, index }
 };
 </script>

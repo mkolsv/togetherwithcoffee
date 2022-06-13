@@ -1,13 +1,7 @@
 <template>
-    <Header />
+    <Slider />
 </template>
 
-<script>
-import Header from '../components/home/header/Header';
-
-export default {
-    name: 'Index',
-
-    components: { Header }
-};
+<script setup>
+import Slider from '../components/home/slider/Slider';
 </script>
