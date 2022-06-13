@@ -8,12 +8,6 @@
     </nav>
 </template>
 
-<script>
-export default {
-    name: 'Navigation'
-};
-</script>
-
 <style scoped>
 .twc-nav {
     display: flex;
@@ -29,7 +23,13 @@ export default {
 }
 
 .twc-nav--item {
-    padding: 16px;
+    padding: 8px;
+    border: 2px solid transparent;
+    transition: .2s border-color;
+}
+
+.twc-nav--item:hover {
+    border-color: var(--P100);
 }
 
 .twc-nav--item-link {

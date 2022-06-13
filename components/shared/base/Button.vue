@@ -34,13 +34,12 @@ const buttonClasses = computed(() => `twc-button--${props.type}`);
 
 .twc-button--secondary {
     background: var(--P200);
-    border: 1px solid var(--P100);
+    border: 2px solid var(--P100);
     color: var(--P100);
 }
 
 .twc-button--secondary:hover {
     background: var(--P100);
-    border: 1px solid var(--P200);
     color: var(--P200);
 }
 </style>
