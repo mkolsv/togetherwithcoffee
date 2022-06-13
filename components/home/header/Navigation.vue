@@ -34,7 +34,7 @@ export default {
 
 .twc-nav--item-link {
     text-decoration: none;
-    color: #000;
+    color: var(--P100);
     text-transform: uppercase;
     font-weight: 600;
 }

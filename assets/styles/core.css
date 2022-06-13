@@ -1,1 +1,11 @@
 @import '/node_modules/modern-normalize/modern-normalize.css';
+
+@import "variables.css";
+
+.twc-container {
+  max-width: 1320px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
