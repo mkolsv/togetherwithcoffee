@@ -15,9 +15,9 @@ import Button from '../../shared/base/Button';
 import Navigation from './Navigation';
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .twc-header {
-    width: 80px;
+    height: 80px;
     background: #FFF;
     display: flex;
     justify-content: space-between;
