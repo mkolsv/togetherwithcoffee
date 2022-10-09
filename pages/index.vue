@@ -1,7 +1,11 @@
 <template>
-    <Header />
+    <main>
+        <Slider />
+        <FeaturedShops />
+    </main>
 </template>
 
 <script setup>
-import Header from '../components/header/Header';
+import Slider from '../components/home/slider/Slider';
+import FeaturedShops from '../components/home/featuredShops/FeaturedShops';
 </script>

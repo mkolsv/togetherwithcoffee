@@ -1,5 +1,13 @@
 :root {
-  /* General */
-  --P100: #000;
-  --P200: #FFF;
+    /* Text */
+    --color-text-100: #000;
+    --color-text-200: #FFF;
+    --color-text-300: #7A7777;
+
+    /* Border */
+    --color-border-100: #000;
+
+    /* Background */
+    --color-background-100: #000;
+    --color-background-200: #FFF;
 }

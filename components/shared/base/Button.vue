@@ -24,22 +24,18 @@ const buttonClasses = computed(() => `twc-button--${props.type}`);
 
 <style scoped>
 .twc-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 4px;
-    transition: .2s background-color ease-in, .2s color ease-in;
+    padding: 12px;
+    transition: .1s background-color ease-in, .1s color ease-in;
 }
 
-.twc-button--secondary {
-    background: var(--P200);
-    border: 2px solid var(--P100);
-    color: var(--P100);
+.twc-button--outlined {
+    background-color: var(--color-background-200);
+    border: 2px solid var(--color-border-100);
+    color: var(--color-text-100);
 }
 
-.twc-button--secondary:hover {
-    background: var(--P100);
-    color: var(--P200);
+.twc-button--outlined:hover {
+    background-color: var(--color-background-100);
+    color: var(--color-text-200);
 }
 </style>
