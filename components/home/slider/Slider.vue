@@ -20,7 +20,7 @@
 </template>
 
 <script setup>
-import Search from '../../shared/Search';
+import { Search } from '../../shared';
 </script>
 
 <style scoped>
@@ -42,7 +42,7 @@ import Search from '../../shared/Search';
     top: 120px;
     left: 0;
     right: 0;
-    color: #FFF;
+    color: var(--color-text-200);
 }
 
 .twc-slider__title {
@@ -57,5 +57,6 @@ import Search from '../../shared/Search';
 
 .twc-slider__search {
     width: 740px;
+    margin-top: 32px;
 }
 </style>

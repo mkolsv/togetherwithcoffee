@@ -1,8 +1,28 @@
 <template>
     <nav class="twc-nav">
         <ul class="twc-nav--list">
-            <li class="twc-nav--item" v-for="n in 4">
-                <a class="twc-nav--item-link" href="#">Home</a>
+            <li class="twc-nav--item">
+                <a class="twc-nav--item-link" href="#">
+                    Home
+                </a>
+            </li>
+
+            <li class="twc-nav--item">
+                <a class="twc-nav--item-link" href="#">
+                    Search
+                </a>
+            </li>
+
+            <li class="twc-nav--item">
+                <a class="twc-nav--item-link" href="#">
+                    Blog
+                </a>
+            </li>
+
+            <li class="twc-nav--item">
+                <a class="twc-nav--item-link" href="#">
+                    About Us
+                </a>
             </li>
         </ul>
     </nav>
@@ -23,20 +43,21 @@
 }
 
 .twc-nav--item {
-    padding: 8px;
     border: 2px solid transparent;
     transition: .2s border-color;
 }
 
 .twc-nav--item:hover {
-    border-color: var(--P100);
+    border-color: var(--color-border-100);
 }
 
 .twc-nav--item-link {
-    color: var(--P100);
+    display: inline-block;
+    color: var(--color-text-100);
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 800;
+    padding: 8px;
 }
 </style>
