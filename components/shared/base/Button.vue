@@ -2,8 +2,8 @@
     <button
         class="twc-button"
         :class="buttonClasses"
+        :type="props.type"
         @click="$emit('click', $event)"
-        type="button"
     >
         <slot />
     </button>
@@ -13,13 +13,19 @@
 import { computed } from 'vue';
 
 const props = defineProps({
-    type: {
+    skin: {
         type: String,
         required: true
+    },
+
+    type: {
+        type: String,
+        required: false,
+        default: 'button'
     }
 });
 
-const buttonClasses = computed(() => `twc-button--${props.type}`);
+const buttonClasses = computed(() => `twc-button--${props.skin}`);
 </script>
 
 <style scoped>

@@ -4,7 +4,7 @@
 
         <Navigation />
 
-        <Button class="twc-header__button" type="outlined">
+        <Button class="twc-header__button" skin="outlined">
             Any ideas?
         </Button>
     </header>
