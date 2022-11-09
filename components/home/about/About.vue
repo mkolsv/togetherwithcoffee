@@ -18,10 +18,7 @@
                     and scrambled it to make a type specimen book.
                 </p>
 
-                <Button
-                    class="twc-header__button"
-                    skin="outlined"
-                >
+                <Button skin="outlined">
                     Explore
                 </Button>
             </div>

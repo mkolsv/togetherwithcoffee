@@ -4,7 +4,7 @@
 
         <Navigation />
 
-        <Button class="twc-header__button" skin="outlined">
+        <Button skin="outlined">
             Any ideas?
         </Button>
     </header>
@@ -22,9 +22,5 @@ import Navigation from './Navigation';
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.twc-header__button {
-    font-size: 14px;
 }
 </style>
